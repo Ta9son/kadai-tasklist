@@ -30,8 +30,8 @@ class TasksController < ApplicationController
         else
             flash.now[:danger] = 'メッセージの投稿に失敗しました。'
             render :new
+        end
     end
-  end
 
     def edit
         
